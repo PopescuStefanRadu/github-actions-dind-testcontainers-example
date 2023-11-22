@@ -1,0 +1,5 @@
+spring:
+  cassandra:
+    local-datacenter: 'datacenter1'
+    contact-points: 'localhost:9042'
+    keyspace-name: 'demo'
