@@ -21,7 +21,7 @@ import java.util.List;
 public class TestDemoApplication {
     @Container
     @ServiceConnection
-    static CassandraContainer<?> cassandra = new CassandraContainer<>(DockerImageName.parse("cassandra:4"));
+    static CassandraContainer<?> cassandra = new CassandraContainer<>(DockerImageName.parse("cassandra:3"));
     @Autowired
     private DummyRepository repository;
 
